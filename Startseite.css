@@ -1,0 +1,169 @@
+
+body
+{
+    position: relative; 
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+background-color: #CCCCCC;
+height: 150px;
+border-top: hidden;
+border-radius: 15px;
+}
+header img
+{
+position: absolute;
+width: 150px;
+height: 150px;
+margin-top: 20px;
+
+}
+#header
+{
+text-align: center;
+ }
+h1
+{
+padding: 25px 0;
+}
+header nav
+{
+text-align: center;
+} 
+.menu a
+{
+text-decoration: none;
+color: black;
+margin-left: 50px;
+}
+.menu a:last-of-type
+{
+margin-right: 50px;
+}
+h4
+{
+    margin-bottom: 5px;
+}     
+li
+{
+    list-style: none;
+}
+footer
+{
+margin-top: 100px;
+}
+     .Bild
+{
+    margin-top: 100px;
+    border-radius: 20px;
+}
+@media screen and (min-width: 700px)
+{
+    #Begrüßung
+    {   
+        position: absolute;
+        margin-left: 450px;
+        z-index: 20;
+        font-size: 20px;
+        margin-top: 100px;
+    }
+}
+@media screen and (min-width: 1000px) 
+{
+    #tabelle
+    {   position: absolute;
+        right: 0;
+        width: 200px; 
+        top: 290px;
+    }    
+
+}
+
+@media screen and (max-width: 700px)
+{
+    #Begrüßung
+    {   
+        
+        margin-left: 450px;
+        z-index: 20;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .Bild
+    {
+       margin-left: 20px;
+        margin-top: 0;
+    }
+
+    #tabelle
+    {
+        margin-left: 20px;
+    }
+    .img
+    {
+    display: none;
+    }
+
+    
+}
+
+
+.blockLook{
+    background-color: #CCCCCC;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px gray;
+    margin-bottom: 10px;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+header
+{
+    
+    height: 180px;
+    border-top: hidden;
+    padding-top: 1px;
+}
+header img
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+#header
+{
+    text-align: center;
+}
+h1{
+    padding: 25px 0;
+}
+header nav
+{
+    text-align: center;
+}
+/*END Header */
+/*START Footer*/
+footer
+{
+   
+    background: #000;
+    text-align: center;
+    height: 30px;
+    
+}
+footer a
+{
+    margin: 10px  auto;
+}
+    
