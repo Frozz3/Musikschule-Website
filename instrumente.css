@@ -1,0 +1,246 @@
+
+body
+{
+     position: relative;
+     max-width: 1200px;
+     margin: 0 auto; 
+     font-family: Arial;
+      background-image: linear-gradient(to right, #ADD8E6 , white, white, white, #ADD8E6);
+
+}
+
+
+a 
+{
+ 
+     text-decoration: none;
+}
+a:visited
+{
+    color: black;
+}
+
+header
+{
+    background-color: #83abdb;
+    height: 150px;
+    border: black solid;
+    border: hidden;
+    padding-top: 1px;
+    height: 170px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 10px 10px 5px gray; 
+    min-width: 600px;
+}
+img
+{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            margin-left: 30px;
+            
+}
+        
+        
+        @media screen and (max-width: 700px)
+            
+        {
+            .img{
+                display: none;
+        }
+        }
+        
+        
+        #header
+        {
+            text-align: center;
+            
+        }
+        
+        
+        h1
+        {
+    
+            padding: 25px 0;
+        }
+        
+        
+        header nav
+        {
+            text-align: center;
+        }
+        
+        
+        main nav
+        {
+            width: 300px;
+            text-align: center;
+        }
+        
+        
+        .menu a
+        {
+            color: black;
+            margin-left: 50px;
+            
+        }
+        
+        
+        .menu a:last-of-type
+        {
+            margin-right: 50px;
+        }
+        
+         /* Instrumente Anfang  */
+         
+        .menulinks
+        {
+           box-shadow: 10px 10px 5px  gray;
+          padding-top: 40px;
+          text-align: left;
+          width: 127px ;
+          background-color: #83abdb;
+          height: 500px;
+          border-radius: 15px; 
+          margin-top: 20px;
+      
+          
+          position: absolute;
+          
+        }
+        
+        
+        .menulinks a
+        {
+          
+            display: block;
+            width: 80px;
+            padding: 4px;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    
+        #akkordeon
+        {
+               margin-left: 230px;
+          margin-top: 120px ;
+          position: absolute;
+          width: 500px;
+          height: 320px;
+        }
+    
+    
+        #geige
+        {
+          margin-left: 230px;
+          margin-top: 120px ;
+          position: absolute; 
+          width: 500px;
+          height: 320px;  
+            
+        }
+    
+    
+        #gitarre
+        {
+            margin-top: 100px;
+            margin-left: 200px;
+            position: absolute;
+            width: 560px;
+            height: 350px;
+            background-color: #CCCCCC;
+        }
+        
+        
+        #klavir
+         {
+            margin-top: 20px;
+            margin-left: 200px;
+            position: absolute;
+            width: 470px;
+            height: 470px;
+            background-color: #CCCCCC;
+        }
+        
+        
+      
+        
+        #textinst
+        {
+           background-color: #CCCCCC;
+           margin-top: 180px;
+           position: absolute;
+           margin-left: 850px;
+           box-shadow: 10px 10px 5px  gray;
+           width: 350px;
+           padding-left: 10px;
+           
+        }
+        
+        #trompete
+         {
+            margin-top: 120px;
+            margin-left: 200px;
+            position: absolute;
+            width: 580px;
+            height: 360px;
+            background-color: #CCCCCC;
+        }
+        
+        #kontrabass
+         {
+            margin-top: 60px;
+            margin-left: 200px;
+            position: absolute;
+            width: 560px;
+            height: 480px;
+            background-color: #CCCCCC;
+            
+        } 
+        
+          /* Instrumente Ende  */
+        
+         /*START Footer*/
+        footer{
+            text-align: center;
+            height: 30px;
+            margin-top: 50%;
+            position: absolute;
+        }
+        footer a{
+            margin: 10px  auto;
+            color: black;
+            text-decoration: none;
+        }
+        /*END Footer*/
+
+        /* Unterricht */
+        
+        #kinderU   {
+        margin-top: 5%;
+          position: absolute;
+          width:45%;
+          
+        }
+        
+        #erwachsenU
+        {
+         margin-top: 5%;
+         position: absolute;
+         width: 45%;
+         left: 55%;
+        }
+        
+        #gesangU
+        {
+         position: absolute;
+         margin-top: 33%;
+         left: 5%;
+         width: 90%;
+        }
+        
+        .unterrichtT
+        {
+            position: relative;
+        }
