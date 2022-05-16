@@ -9,7 +9,10 @@ body
 
 }
 
-
+*{
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
 a 
 {
  
@@ -22,7 +25,6 @@ a:visited
 
 header
 {
-    background-color: #83abdb;
     height: 150px;
     border: black solid;
     border: hidden;
