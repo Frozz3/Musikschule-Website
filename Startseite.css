@@ -80,7 +80,7 @@
 
 @media screen and (min-width: 1060px){
     #Information{
-        margin-left: 840px;
+        margin-left: 900px;
         position: absolute;
     }
 }
@@ -116,14 +116,16 @@ li
         display: none;
     }
 }
-
+main{
+    margin-top: 50px;
+}
 
 /*START Footer*/
 footer{
     background: #000;
     text-align: center;
     height: 30px;
-    margin-top: 300px;
+    margin-top: 370px;
 }
 footer a{
     margin: 10px  auto;
