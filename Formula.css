@@ -67,6 +67,12 @@
             margin: 0px auto;
         }
 
+        label{
+            display: inline-block;
+            width: calc(50% - 111px);
+            margin-left: 100px;
+        }
+
 
         /*START Footer*/
         footer{
