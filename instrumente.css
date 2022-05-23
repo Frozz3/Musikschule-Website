@@ -25,6 +25,7 @@ a:visited
 
 header
 {
+    background-color: #83abdb;
     height: 150px;
     border: black solid;
     border: hidden;
@@ -237,7 +238,7 @@ img
         #gesangU
         {
          position: absolute;
-         margin-top: 33%;
+         margin-top: 35%;
          left: 5%;
          width: 90%;
         }
@@ -246,3 +247,4 @@ img
         {
             position: relative;
         }
+
