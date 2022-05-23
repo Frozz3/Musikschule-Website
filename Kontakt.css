@@ -3,7 +3,11 @@
     background-color:#496469 /*#CCCCCC*/;
     border-radius: 15px;
     box-shadow: 10px 10px 5px gray;/*gray*/
-    margin-bottom: 32px;
+    margin-bottom: 10px;
+}
+
+.MainLook{
+    margin: 0 10px;   
 }
 
 body{
@@ -20,13 +24,21 @@ header{
     border-top: hidden;
     padding-top: 1px;
 }
-header img{
+header #img{
     margin-top: 15px;
     margin-left: 15px;
     position: absolute;
     width: 150px;
     height: 150px;
 }
+
+@media screen and (max-width: 700px){
+    header #img{
+        display: none;
+    }
+}
+
+
 
 #header{
     text-align: center;
