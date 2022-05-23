@@ -73,6 +73,17 @@
             margin-left: 100px;
         }
 
+        label[for=female], label[for=male]{
+            width: 45px;
+            margin-left: 0px;
+        }   
+
+        div#buttons input{
+            display: inline;
+            width: 145px;
+            margin: 0 calc( 25% - 75px );
+        }
+
 
         /*START Footer*/
         footer{
