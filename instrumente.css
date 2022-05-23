@@ -11,7 +11,7 @@ body
 
 *{
     color: #000000;
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 a 
 {
@@ -171,13 +171,14 @@ img
         
         #textinst
         {
-           background-color: #CCCCCC;
-           margin-top: 180px;
+           background-color: #83abdb;
+           margin-top: 145px;
            position: absolute;
            margin-left: 850px;
            box-shadow: 10px 10px 5px  gray;
            width: 350px;
            padding-left: 10px;
+           border-radius: 15px; 
            
         }
         
@@ -208,7 +209,7 @@ img
         footer{
             text-align: center;
             height: 30px;
-            margin-top: 50%;
+            margin-top: 55%;
             position: absolute;
         }
         footer a{
@@ -238,7 +239,7 @@ img
         #gesangU
         {
          position: absolute;
-         margin-top: 35%;
+         margin-top: 37%;
          left: 5%;
          width: 90%;
         }
@@ -248,3 +249,10 @@ img
             position: relative;
         }
 
+        .Ubutton
+       {
+           border: solid black thin;
+           padding: 1%;
+           border-radius: 20%;
+           font-size: larger;
+       }
