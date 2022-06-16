@@ -1,3 +1,12 @@
+#all
+{    
+width: 500px;
+ border: 3px solid black; 
+ border-radius: 20px;
+ margin-left: 60px;
+ 
+}
+
 #anrede
 {
   margin-right: 185px;
@@ -13,7 +22,6 @@
 {
   margin-right: 140px;
 
-
 }
 
 #vorname
@@ -25,7 +33,6 @@
 #email
 {
   margin-right: 110px;
-
 
 }
 #anliegen
