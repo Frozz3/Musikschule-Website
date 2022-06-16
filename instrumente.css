@@ -3,7 +3,8 @@
             background-color: #83abdb;
             border-radius: 15px;
             box-shadow: 10px 10px 5px gray;/*gray*/
-            margin-bottom: 10px;
+            margin-top: 60%;
+            
         }
 
 body
@@ -217,7 +218,7 @@ footer{
     background: #000;
     text-align: center;
     height: 30px;
-    margin-top: 370px;
+    
 }
 footer a{
     margin: 10px  auto;
