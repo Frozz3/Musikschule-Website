@@ -12,7 +12,7 @@
         }
 
         body{
-            background-color: #122a3e;
+            background-image: linear-gradient(to right, #ADD8E6 , white, white, white, #ADD8E6);
             font-family: Arial, Helvetica, sans-serif;
             position: relative; 
             max-width: 1200px;
