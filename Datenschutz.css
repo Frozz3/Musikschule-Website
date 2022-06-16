@@ -1,7 +1,7 @@
  /*START Header */
  .blockLook
  {
-     background-color:#496469 /*#CCCCCC*/;
+    background-color: #83abdb;
      border-radius: 15px;
      box-shadow: 10px 10px 5px gray;/*gray*/
      margin-bottom: 10px;
@@ -11,7 +11,7 @@
  }
  body
  {
-     background-color: #d87f37 /*white*/;
+    background-image: linear-gradient(to right, #ADD8E6 , white, white, white, #ADD8E6);
      font-family: Arial, Helvetica, sans-serif;
      position: relative; 
      max-width: 1200px;
