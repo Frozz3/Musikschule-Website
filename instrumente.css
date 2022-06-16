@@ -1,3 +1,11 @@
+.blockLook
+        {
+            background-color: #83abdb;
+            border-radius: 15px;
+            box-shadow: 10px 10px 5px gray;/*gray*/
+            margin-top: 60%;
+            
+        }
 
 body
 {
@@ -206,18 +214,17 @@ img
           /* Instrumente Ende  */
         
          /*START Footer*/
-        footer{
-            text-align: center;
-            height: 30px;
-            margin-top: 55%;
-            position: absolute;
-        }
-        footer a{
-            margin: 10px  auto;
-            color: black;
-            text-decoration: none;
-        }
-        /*END Footer*/
+footer{
+    background: #000;
+    text-align: center;
+    height: 30px;
+    
+}
+footer a{
+    margin: 10px  auto;
+    color: black;
+    text-decoration: none;
+}
 
         /* Unterricht */
         
