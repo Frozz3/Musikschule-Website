@@ -5,7 +5,7 @@ body
      max-width: 1200px;
      margin: 0 auto; 
      font-family: Arial;
-      background-image: linear-gradient(to right, #ADD8E6 , white, white, white, #ADD8E6);
+    background-image: linear-gradient(to right, #ADD8E6 , white, white, white, #ADD8E6);
 
 }
 
@@ -25,7 +25,7 @@ a:visited
 
 header
 {
-    background-color: #496469;
+    background-color: #83abdb;
     height: 150px;
     border: black solid;
     border: hidden;
