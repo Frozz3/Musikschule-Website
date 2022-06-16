@@ -252,7 +252,7 @@ img
         .Ubutton
        {
            border: solid black thin;
-           padding: 1%;
+           padding: 8px;
            border-radius: 20%;
            font-size: larger;
        }
