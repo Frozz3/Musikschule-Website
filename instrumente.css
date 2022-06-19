@@ -233,6 +233,7 @@ footer{
         margin-top: 5%;
           position: absolute;
           width:45%;
+          text-align:center;
           
         }
         
@@ -242,6 +243,7 @@ footer{
          position: absolute;
          width: 45%;
          left: 55%;
+         text-align:center;
         }
         
         #gesangU
@@ -250,6 +252,7 @@ footer{
          margin-top: 37%;
          left: 5%;
          width: 90%;
+         text-align:center;
         }
         
         .unterrichtT
