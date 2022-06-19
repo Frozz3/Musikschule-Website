@@ -213,17 +213,16 @@ img
         
           /* Instrumente Ende  */
         
-         /*START Footer*/
+        
+/*START Footer*/
 footer{
     background: #000;
+    margin-top: 370px;
     text-align: center;
-    height: 30px;
-    
 }
-footer a{
-    margin: 10px  auto;
-    color: black;
-    text-decoration: none;
+#text{
+    padding-bottom: 5px;
+    padding-top: 1px ;
 }
 
         /* Unterricht */
