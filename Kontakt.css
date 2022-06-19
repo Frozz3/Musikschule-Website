@@ -60,15 +60,8 @@
  }
 
 
-<<<<<<< HEAD
  #header {
      text-align: center;
-=======
-.box1{
-    text-align: center;
-    margin-top: 10px;
-    font-size: 20px;
->>>>>>> 0fa00430d2c14355c9cd71203b025ea5e98a9d2b
 
  }
 
@@ -168,7 +161,7 @@
  /*START Footer*/
  footer {
      background: #000;
-     margin-top: 370px;
+     margin-top: 300px;
      text-align: center;
  }
 
