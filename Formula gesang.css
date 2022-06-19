@@ -139,17 +139,15 @@ main nav
         }
 
 
-        /*START Footer*/
-        footer{
-            background: #000;
-            text-align: center;
-            height: 30px;
-            margin-top: 100px;
-        }
-        footer a{
-            margin: 10px  auto;
-            color: black;
-            text-decoration: none;
-        }
+       /*START Footer*/
+footer{
+    background: #000;
+    margin-top: 370px;
+    text-align: center;
+}
+#text{
+    padding-bottom: 5px;
+    padding-top: 1px ;
+}
         
         /*END Footer*/
