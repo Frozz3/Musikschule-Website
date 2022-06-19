@@ -1,108 +1,99 @@
  /*START Header */
- .blockLook
- {
+ .blockLook {
      background-color: #83abdb;
      border-radius: 15px;
-     box-shadow: 10px 10px 5px gray;/*gray*/
-     
-     
+     box-shadow: 10px 10px 5px gray;
+     /*gray*/
+
+
  }
 
-body
-{
-position: relative;
-max-width: 1200px;
-margin: 0 auto; 
-font-family: Arial;
-background-image: linear-gradient(to right, #ADD8E6 , white, white, white, #ADD8E6);
+ body {
+     position: relative;
+     max-width: 1200px;
+     margin: 0 auto;
+     font-family: Arial;
+     background-image: linear-gradient(to right, #ADD8E6, white, white, white, #ADD8E6);
 
-}
+ }
 
-*{
-color: #000000;
+ * {
+     color: #000000;
 
-}
-a 
-{
+ }
 
-text-decoration: none;
-}
-a:visited
-{
-color: black;
-}
+ a {
 
-header
-{
-background-color: #83abdb;
-height: 150px;
-border: black solid;
-border: hidden;
-padding-top: 1px;
-height: 170px;
-border-bottom-right-radius: 15px;
-border-bottom-left-radius: 15px;
-box-shadow: 10px 10px 5px gray; 
-min-width: 600px;
-}
-img
-{
+     text-decoration: none;
+ }
+
+ a:visited {
+     color: black;
+ }
+
+ header {
+     background-color: #83abdb;
+     height: 150px;
+     border: black solid;
+     border: hidden;
+     padding-top: 1px;
+     height: 170px;
+     border-bottom-right-radius: 15px;
+     border-bottom-left-radius: 15px;
+     box-shadow: 10px 10px 5px gray;
+     min-width: 600px;
+ }
+
+ img {
      position: absolute;
      width: 150px;
      height: 150px;
      margin-left: 30px;
-     
-}
- 
- 
- @media screen and (max-width: 700px)
-     
- {
-     .img{
+
+ }
+
+
+ @media screen and (max-width: 700px) {
+     .img {
          display: none;
+     }
  }
- }
- 
- 
- #header
- {
+
+
+ #header {
      text-align: center;
-     
+
  }
- 
- 
- h1
- {
+
+
+ h1 {
 
      padding: 25px 0;
  }
- 
- 
- header nav
- {
+
+
+ header nav {
      text-align: center;
  }
- 
- 
- main nav
- {
+
+
+ main nav {
      width: 300px;
      text-align: center;
  }
- 
- 
- .menu a
- {
+
+
+ .menu a {
      color: black;
      margin-left: 50px;
-     
+
  }
- 
- 
- .menu a:last-of-type
- {
+
+
+ .menu a:last-of-type {
      margin-right: 50px;
  }
+<<<<<<< Updated upstream
 /*END Header */
 
 main
@@ -122,3 +113,25 @@ footer{
     padding-top: 1px ;
 }
 /*END Footer*/
+=======
+
+ /*END Header */
+
+ main {
+     text-align: center;
+ }
+
+ /*START Footer*/
+ footer {
+     background: #000;
+     margin-top: 370px;
+     text-align: center;
+ }
+
+ #text {
+     padding-bottom: 5px;
+     padding-top: 1px;
+ }
+
+ /*END Footer*/
+>>>>>>> Stashed changes
