@@ -102,20 +102,34 @@ iframe{
     }
 }
     
+.Ubutton
+{
+    border: solid black thin;
+    padding: 8px;
+    border-radius: 20%;
+    font-size: large;
+    
+}
 
+a 
+{
+ 
+     text-decoration: none;
+}
+a:visited
+{
+    color: black;
+}
 
-
-
+/*START Footer*/
 /*START Footer*/
 footer{
     background: #000;
+    margin-top: 370px;
     text-align: center;
-    height: 30px;
-    
 }
-footer a{
-    margin: 10px  auto;
-    color: black;
-    text-decoration: none;
+#text{
+    padding-bottom: 5px;
+    padding-top: 1px ;
 }
 /*END Footer*/
