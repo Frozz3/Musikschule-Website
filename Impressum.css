@@ -93,7 +93,6 @@
  .menu a:last-of-type {
      margin-right: 50px;
  }
-<<<<<<< Updated upstream
 /*END Header */
 
 main
@@ -113,25 +112,3 @@ footer{
     padding-top: 1px ;
 }
 /*END Footer*/
-=======
-
- /*END Header */
-
- main {
-     text-align: center;
- }
-
- /*START Footer*/
- footer {
-     background: #000;
-     margin-top: 370px;
-     text-align: center;
- }
-
- #text {
-     padding-bottom: 5px;
-     padding-top: 1px;
- }
-
- /*END Footer*/
->>>>>>> Stashed changes
