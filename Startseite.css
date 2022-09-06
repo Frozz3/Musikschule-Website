@@ -53,16 +53,15 @@ img {
 }
 
 
-@media screen and (max-width: 390px) and (min-hight: 844px) {
-    .img 
-    {
-        
+@media screen and (max-width: 700px) {
+    .img {
+        display: none;
     }
 }
 
 
 #header {
-    
+    text-align: center;
 
 }
 
@@ -117,14 +116,14 @@ main nav {
     width: 300px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1060px) {
     #Information {
         margin-left: 900px;
         position: absolute;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1060px) {
     #Information {
         position: absolute;
         margin-left: 10px;
@@ -133,7 +132,7 @@ main nav {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
     #KlavierKreis {
         display: none;
     }
@@ -149,7 +148,7 @@ li {
     list-style: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
     header img {
         display: flex;
     }
