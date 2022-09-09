@@ -52,7 +52,7 @@ img {
 
 }
 
-@media only screen and ( max-width: 390px) 
+@media only screen and ( max-width: 375px) 
 {
     header {
         background-color: #83abdb;
@@ -75,15 +75,35 @@ img {
     
     }
     
-  
-}
-
-
-@media screen and (max-width: 700px) {
     .img {
         display: none;
     }
+
+    #KlavierKreis {
+        margin-top: 400px;
+        margin-left: 200px;
+        position: absolute;
+        width: 400px;
+        height: 250px;
+    }
+
+    /*START Footer*/
+footer {
+    background: #000;
+    margin-top: 400px;
+    text-align: center;
 }
+
+#text {
+    padding-bottom: 5px;
+    padding-top: 1px;
+}
+
+
+/*END Footer*/
+}
+
+
 
 
 #header {
@@ -142,28 +162,6 @@ main nav {
     width: 300px;
 }
 
-@media screen and (min-width: 1060px) {
-    #Information {
-        margin-left: 900px;
-        position: absolute;
-    }
-}
-
-@media screen and (max-width: 1060px) {
-    #Information {
-        position: absolute;
-        margin-left: 10px;
-        margin-top: 156px;
-    }
-}
-
-
-@media screen and (max-width: 830px) {
-    #KlavierKreis {
-        display: none;
-    }
-}
-
 
 /*zeiten*/
 h4 {
@@ -172,12 +170,6 @@ h4 {
 
 li {
     list-style: none;
-}
-
-@media screen and (min-width: 700px) {
-    header img {
-        display: flex;
-    }
 }
 
 main {
