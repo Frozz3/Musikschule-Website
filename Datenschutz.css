@@ -127,3 +127,87 @@
      padding-bottom: 5px;
      padding-top: 1px;
  }
+
+ @media only screen and ( min-width: 374px) and (max-width: 700px)
+        {
+
+            header {
+                
+                height: 300px;
+                width: 1670px;
+               
+            }
+            
+            header h1{
+                font-size: 80px;
+                margin-right: 130px;
+            }
+            header nav
+            {
+                font-size: 300%;
+                margin-right: 121px;
+            }
+            
+
+                       
+            main{
+                width: 300%;
+                margin-left: 50%;
+                font-size: 400%;
+            }
+
+            main a{
+                width: 10%;
+            }
+          
+
+            footer {
+                background: #000;
+                margin-top: 100px;
+                text-align: center;
+            }
+           
+            #text {
+                padding-bottom: 5px;
+                padding-top: 1px;
+                font-size: 400%;
+                margin-right: 208px;
+            }
+    
+            .blockLook {
+                background-color: #83abdb;
+                border-radius: 15px;
+                box-shadow: 10px 10px 5px grey;
+                width: 1670px;
+            }  
+    
+                
+    
+               
+    }
+
+
+    @media only screen and ( min-width: 819px) and (max-width: 1000px) 
+    {
+
+        .menu a {
+            color: black;
+            margin-left: 50px;
+            font-size: 130%;
+        }
+        
+        footer
+        {
+            background: #000;
+        margin-top: 0%;
+        text-align: center;
+        }
+        #text {
+            padding-bottom: 5px;
+            padding-top: 1px;
+            font-size: 150%;
+        }
+        main p{
+            font-size: 120%;
+        }
+    }

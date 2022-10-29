@@ -159,21 +159,30 @@ img {
 }
 
 
-@media only screen and ( min-width: 374px) and (max-width: 700px) 
+@media only screen and ( min-width: 374px) and (max-width: 800px) 
 {
+    
+    body {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: Arial;
+        background-image: linear-gradient(to right, #ADD8E6, white,);
+    
+    }
     
 header {
     min-width: 1168px;
-    height: 210px;
+    height: 230px;
    
 }
 
 header nav
 {
-    font-size: 200%;
+    font-size: 300%;
 }
 h1{
-    font-size: 230%;
+    font-size: 300%;
 }
 
 
@@ -210,6 +219,65 @@ width: 310%;
 }
 
 #text{
-    font-size: 200%;
+    font-size: 250%;
 }
+}
+
+@media only screen and ( min-width: 819px) and (max-width: 1000px) 
+{
+    header {
+        min-width: 2555px;
+        height: 350px;
+       
+    }
+    
+    header nav
+    {
+        font-size: 500%;
+    }
+    h1{
+        font-size: 500%;
+    }
+    
+    img {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    
+    #KlavierKreis{
+        margin-top: 250%;
+        width: 250%;
+        height: 24%;
+        margin-left: 30%
+    }
+    
+    
+    
+    #Begrüßung{
+        font-size: 500%;
+        margin-left: 40%;
+        width: 150%;
+        text-align: inherit;
+    }
+    
+    #Information
+    {
+        font-size: 500%;
+        margin-top: 30%;
+        width: 80%;
+        margin-left: 200%;
+        
+        text-align: inherit;
+    }
+    
+    .blockLook{
+    margin-top: 420%;
+    width: 310%;
+    }
+    
+    #text{
+        font-size: 500%;
+    }
 }
