@@ -1,6 +1,4 @@
-<?php
-require('login.php');
-?>
+
 <!DOCTYPE html>
 <html>
 
@@ -47,7 +45,7 @@ require('login.php');
   <br />
   <br />
 
-  <a class="Ubutton" href="Formula.php"><b>Unterricht Buchen</b></a>
+  <a class="Ubutton" href="login.php"><b>Unterricht Buchen</b></a>
   </p>
   
   </div>
@@ -67,7 +65,7 @@ require('login.php');
   <br />
   <br />
 
-  <a class="Ubutton" href="Formula.php"><b>Unterricht Buchen</b></a>
+  <a class="Ubutton" href="login.php"><b>Unterricht Buchen</b></a>
 
   </p>
   
@@ -89,7 +87,7 @@ require('login.php');
   <br />
   <br />
 
-  <a class="Ubutton" href="Formula.php"><b>Unterricht Buchen</b></a>
+  <a class="Ubutton" href="login.php"><b>Unterricht Buchen</b></a>
   </p>
   
   </div>

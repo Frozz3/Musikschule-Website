@@ -53,7 +53,7 @@ if(isset($_POST['login']))
     if($total ==1)
     {
         $_SESSION['user_name'] =$user;
-        header('Location: Formula.php');
+        header('Location: Anmeldung Unttericht.php');
         
     }
     else{
