@@ -1,6 +1,6 @@
-
 <?php
-require ('login.php');
+session_start();
+echo "Wilkommen " .$_SESSION['user_name'];
 ?>
 <HTML>
 <!DOCTYPE html>
