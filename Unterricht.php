@@ -44,7 +44,7 @@
   <br />
   <br />
 
-  <a class="Ubutton" href="Formula kinder.php"><b>Unterricht Buchen</b></a>
+  <a class="Ubutton" href="Formula.php"><b>Unterricht Buchen</b></a>
   </p>
   
   </div>
@@ -86,7 +86,7 @@
   <br />
   <br />
 
-  <a class="Ubutton" href="Formula gesang.php"><b>Unterricht Buchen</b></a>
+  <a class="Ubutton" href="Formula.php"><b>Unterricht Buchen</b></a>
   </p>
   
   </div>
