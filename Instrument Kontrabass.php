@@ -25,13 +25,13 @@
         </nav>
     </header>
     <main>
-        <nav class="menulinks">
-            <a href="Instrumente.html">Gitarre</a> <br />  <br /> <br />
-            <a href="Insturment Klavir.html">Klavier</a> <br /> <br /> <br />
-            <a href="Instrument Geige.html">Geige</a>  <br /> <br /> <br />
-            <a href="Instrument Akkordeon.html">Akkordeon</a> <br />  <br /> <br />
-            <a href="Instrument Trompete.html">Trompete</a>   <br /> <br /> <br />
-            <a href="Instrument Kontrabass.html">Kontrabass</a>  <br /> <br /> <br />
+    <nav class="menulinks">
+            <a href="Instrumente.php">Gitarre</a> <br />  <br /> <br />
+            <a href="Insturment Klavir.php">Klavier</a> <br /> <br /> <br />
+            <a href="Instrument Geige.php">Geige</a>  <br /> <br /> <br />
+            <a href="Instrument Akkordeon.php">Akkordeon</a> <br />  <br /> <br />
+            <a href="Instrument Trompete.php">Trompete</a>   <br /> <br /> <br />
+            <a href="Instrument Kontrabass.php">Kontrabass</a>  <br /> <br /> <br />
 
         </nav>
         <div >
