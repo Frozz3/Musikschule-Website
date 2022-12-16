@@ -1,3 +1,7 @@
+<?php
+session_start();
+echo "Wilkommen " .$_SESSION['user_name'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Formula gesang.css">
+    <link rel="stylesheet" href="Formula kinder.css">
     <title>Document</title>
 </head>
 
@@ -18,57 +22,75 @@
             <h1>Private Musikschule T&uuml;bingen</h1>
         </div>
         <nav class="menu">
-            <a href="Startseite.html">Start</a> <a href="Instrumente.html">Instrumente</a> <a href="Unterricht.html">Unterricht</a> <a href="Kontakt.html">Kontakt</a>
+            <a href="Startseite.php">Start</a> <a href="Instrumente.php">Instrumente</a> <a href="Unterricht.php">Unterricht</a> <a href="Kontakt.php">Kontakt</a>
             
         </nav>
     </header>
     <main>
         <div id="form" class="blockLook">
-            <h2> Anmeldung für den Gesangsunterricht</h2>
-            <form action="mailto:...">
+            <h2> Anmeldung für den Unttericht</h2>
+            <form action="Formula.php" method="GET">
                 <label for="first">Vorname</label>
-                <input id="first" type="text" />
+                <input id="first" type="text" name="vorname" value=""/>
                 <br />
                 <br />
                 <label for="last">Nachname</label>
-                <input id="last" type="text" />
+                <input id="last" type="text" name="nachname" value=""/>
                 <br />
                 <br />
                 <label for="birthday">Geburtsdatum</label>
-                <input id="birthday" type="date" />
+                <input id="birthday" type="date" name="datum" value=""/>
                 <br />
                 <br />
                 <label for="email">Email</label>
-                <input id="email" type="email" />
+                <input id="email" type="email" name="email" value=""/>
                 <br />
                 <br />
                 <label for="phone">Telefon</label>
-                <input id="phone" type="tel" /> 
+                <input id="phone" type="tel" name="tel" value=""/>
                 <br />
                 <br />
                 <label for="gender"> Geschlecht </label>
-                <input id="male" type="radio" name="gender" />
+                <input id="male" type="radio" name="gender" value="male"/>
                 <label for="male">Männlich</label>
-                <input id="female" type="radio" name="gender" />
+                <input id="female" type="radio" name="gender" value="female"/>
                 <label for="female">Weiblich</label>
                 <br />
                 <br />
                 <label for="address">Adresse</label>
-                <input type="text" /> 
+                <input id="adress" type="text" name="adresse" value=""/> 
                 <br />
                 <br />
-          
-                  <label for="uhrzeit">Dauer</label>
+                <label for="Unttericht"> Unttericht </label>
+                <input id="Gesangsunttericht" type="radio" name="Gesang" value="Gesang"/>
+                <label for="Instrument">Instrument</label>
+                <input id="Instrumentunttericht" type="radio" name="Instrument" value="Instrument"/>
+                <br />
+                <br />
+                <label for="instrument">Instrumentart</label>
+                <select id="instrument" name="instrument">
+                    <option value="Gitarre">Gitarre</option>
+                    <option value="Klavir">Klavir</option>
+                    <option value="Geige">Geige</option>
+                    <option value="Akkordeon">Akkordeon</option>
+                    <option value="Trompete">Trompete</option>
+                    <option value="Kontrabass">Kontrabass</option>
+                    <option value="Kontrabass">keins</option>
+                  </select>
+                <br />
+                <br />
+                <label for="uhrzeit">Dauer</label>
                   <select id="uhrzeit" name="uhrzeit">
                       <option value="45m">45 Minuten</option>
                       <option value="60m">60 Minuten</option>
                       <option value="90m">90 Minuten</option>
                     </select>
-                    <br />
-                    <br />
-
+                <br />
+                <br />
+               
+               
                 <label for="frage">Weitere Anmerkungen</label>
-                <textarea></textarea>
+                <textarea id="frage"></textarea>
                 <br />
                 <br />
                 <br />
@@ -78,8 +100,6 @@
                     <input type="reset" />
                 </div>
                         </form>
-        </div>
-    </main>
   
     <footer class="blockLook">
         
@@ -93,8 +113,9 @@
 
 
 
-
+    <a href="login.php">Abmelden</a>
 </body>
+
 
 
 </html>

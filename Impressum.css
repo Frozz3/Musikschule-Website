@@ -118,3 +118,64 @@ footer{
     padding-top: 1px ;
 }
 /*END Footer*/
+
+@media only screen and ( min-width: 374px) and (max-width: 700px)
+        {
+
+           main{
+            width: 100%;
+            margin-left: 100px;
+           }
+
+           main p{
+            text-align: center;
+            font-size: 150%;
+        
+           }
+
+           h4,h3,h1{
+            text-align: center;
+           }
+
+
+          
+           .blockLook{
+            margin-top: 50%;
+            width: 160%;
+            }
+            
+            #text{
+                font-size: 150%;
+            }
+
+            a{
+                font-size: 20px;
+            }
+        
+            
+    }
+     
+    @media only screen and ( min-width: 819px) and (max-width: 1000px) 
+    {
+
+        .menu a {
+            color: black;
+            margin-left: 50px;
+            font-size: 130%;
+        }
+        
+        footer
+        {
+            background: #000;
+        margin-top: 0%;
+        text-align: center;
+        }
+        #text {
+            padding-bottom: 5px;
+            padding-top: 1px;
+            font-size: 150%;
+        }
+        main p{
+            font-size: 120%;
+        }
+    }
