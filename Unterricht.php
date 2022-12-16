@@ -22,7 +22,7 @@
             <h1>Private Musikschule T&uuml;bingen</h1>
         </div>
         <nav class="menu">
-            <a href="Startseite.php">Start</a> <a href="Instrumente.php">Instrumente</a> <a href="Unterricht.php">Unterricht</a> <a href="Kontakt.php">Kontakt</a>
+            <a href="Startseite.php">Start</a> <a href="login.php">Instrumente</a> <a href="Unterricht.php">Unterricht</a> <a href="Kontakt.php">Kontakt</a>
 
         </nav>
     </header>
@@ -45,7 +45,7 @@
   <br />
   <br />
 
-  <a class="Ubutton" href="login.php"><b>Unterricht Buchen</b></a>
+  <a class="Ubutton" href="Anmeldung Unttericht.php"><b>Unterricht Buchen</b></a>
   </p>
   
   </div>
@@ -65,7 +65,7 @@
   <br />
   <br />
 
-  <a class="Ubutton" href="login.php"><b>Unterricht Buchen</b></a>
+  <a class="Ubutton" href="Anmeldung Unttericht.php"><b>Unterricht Buchen</b></a>
 
   </p>
   
@@ -87,7 +87,7 @@
   <br />
   <br />
 
-  <a class="Ubutton" href="login.php"><b>Unterricht Buchen</b></a>
+  <a class="Ubutton" href="Anmeldung Unttericht.php"><b>Unterricht Buchen</b></a>
   </p>
   
   </div>

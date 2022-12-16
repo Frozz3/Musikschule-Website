@@ -21,19 +21,19 @@
             <h1>Private Musikschule T&uuml;bingen</h1>
         </div>
         <nav class="menu">
-            <a href="Startseite.php">Start</a> <a href="Instrumente.php">Instrumente</a> <a href="Unterricht.php">Unterricht</a> <a href="Kontakt.php">Kontakt</a>
+            <a href="Startseite.php">Start</a> <a href="login.php">Instrumente</a> <a href="Unterricht.php">Unterricht</a> <a href="Kontakt.php">Kontakt</a>
             
         </nav>
     </header>
     
     <main>
         <nav class="menulinks">
-            <a href="Instrumente.html">Gitarre</a> <br />  <br /> <br /> 
-            <a href="Insturment Klavir.html">Klavier</a> <br /> <br /> <br /> 
-            <a href="Instrument Geige.html">Geige</a>  <br /> <br /> <br />  
-            <a href="Instrument Akkordeon.html">Akkordeon</a> <br />  <br /> <br /> 
-            <a href="Instrument Trompete.html">Trompete</a>   <br /> <br /> <br /> 
-            <a href="Instrument Kontrabass.html">Kontrabass</a>  <br /> <br /> <br /> 
+            <a href="Instrumente.php">Gitarre</a> <br />  <br /> <br /> 
+            <a href="Insturment Klavir.php">Klavier</a> <br /> <br /> <br /> 
+            <a href="Instrument Geige.php">Geige</a>  <br /> <br /> <br />  
+            <a href="Instrument Akkordeon.php">Akkordeon</a> <br />  <br /> <br /> 
+            <a href="Instrument Trompete.php">Trompete</a>   <br /> <br /> <br /> 
+            <a href="Instrument Kontrabass.php">Kontrabass</a>  <br /> <br /> <br /> 
            
         </nav> 
          

@@ -1,7 +1,4 @@
-<?php
-session_start();
-echo "Wilkommen " .$_SESSION['user_name'];
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +6,7 @@ echo "Wilkommen " .$_SESSION['user_name'];
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Formula kinder.css">
+    <link rel="stylesheet" href="Formula.css">
     <title>Document</title>
 </head>
 
@@ -22,7 +19,7 @@ echo "Wilkommen " .$_SESSION['user_name'];
             <h1>Private Musikschule T&uuml;bingen</h1>
         </div>
         <nav class="menu">
-            <a href="Startseite.php">Start</a> <a href="Instrumente.php">Instrumente</a> <a href="Unterricht.php">Unterricht</a> <a href="Kontakt.php">Kontakt</a>
+            <a href="Startseite.php">Start</a> <a href="login.php">Instrumente</a> <a href="Unterricht.php">Unterricht</a> <a href="Kontakt.php">Kontakt</a>
             
         </nav>
     </header>
@@ -113,7 +110,6 @@ echo "Wilkommen " .$_SESSION['user_name'];
 
 
 
-    <a href="login.php">Abmelden</a>
 </body>
 
 
