@@ -29,7 +29,7 @@
         <p>Telefon: 07071 2046100<br />
             Telefax: 07071 204-46100<br />
             E-Mail: musikschule@tuebingen.de</p>
-            <a class="Ubutton" href="Formula kontakt.html"><b>Weitere Fragen</b></a>
+            <a class="Ubutton" href="Kontakt Formula.php"><b>Weitere Fragen</b></a>
         </div>
         <div class="box2">
             <iframe class="blockLook"
