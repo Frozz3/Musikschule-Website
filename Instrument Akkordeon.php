@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Instrument Akkordeon.php
 <?php
 require ('login.php');
 ?>
@@ -75,79 +74,4 @@ require ('login.php');
     <small><a href="impressum.html">Impressum</a> <a href="Datenschutz.html">Datenschutz</a></small>
 </div>
 </footer>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-     <link href="instrumente.css" type="text/css" rel="stylesheet">
-
-
-    <title>Instrumente</title>
-
-</head>
-<body>
-    <header>
-        <div class="img"><img src="images/geige.png" alt="geige"></div>
-        <div id="header">
-            <h1>Private Musikschule T&uuml;bingen</h1>
-        </div>
-        <nav class="menu">
-            <a href="Startseite.html">Start</a> <a href="Instrumente.html">Instrumente</a> <a href="Unterricht.html">Unterricht</a> <a href="Kontakt.html">Kontakt</a>
-        </nav>
-    </header>
-    <main>
-        <nav class="menulinks">
-            <a href="Instrumente.html">Gitarre</a> <br />  <br /> <br />
-            <a href="Insturment Klavir.html">Klavier</a> <br /> <br /> <br />
-            <a href="Instrument Geige.html">Geige</a>  <br /> <br /> <br />
-            <a href="Instrument Akkordeon.html">Akkordeon</a> <br />  <br /> <br />
-            <a href="Instrument Trompete.html">Trompete</a>   <br /> <br /> <br />
-            <a href="Instrument Kontrabass.html">Kontrabass</a>  <br /> <br /> <br />
-
-        </nav>
-        <div class="insBild">
-            <img id="akkordeon" src="images/akkordeon.png" />
-        </div>
-
-
-
-        <div id="textinst">
-        <p>
-            Zum Unterrichtsangebot gehören sowohl Originalliteratur als auch 
-            Übertragungen aus der Klaviermusik des Barock und der Klassik, aus Jazz, 
-            Tanzmusik, Volksmusik (Folk, Musette, Tango) und der sonstigen Unterhaltungsmusik.
-            Ziel des Unterrichts ist unter anderem das Mitspielen in Duos, Akkordeonorchestern,
-            Ensembles und eventuell in Bands (Folk, Pop, Jazz, Rock unplugged).
-            Leihinstrumente für den Anfang kann die Musikschule in begrenztem Umfang zur Verfügung stellen. 
-            Der Preis bei einer Neuanschaffung hängt wesentlich von der Größe und Ausstattung des Instruments ab.
-            Er liegt zwischen 500 und 1400 Euro. Auch Leasing über ein Musikfachgeschäft ist möglich. 
-            Häufig lässt sich ein preiswertes gebrauchtes Instrument finden.
-            Ein Beratungsgespräch mit dem Fachlehrer wird empfohlen.
-
-
-
-        </p>
-
-
-        </div>
-
-
-    </main>
-
-    
-</body>
-<footer class="blockLook">
-        
-    <div id="text">
-    <p>Private Musikschule T&uuml;bingen</p> 
-    <p>Telefon: 07071 2046100</p>
-    <p>Adresse: Frischlinstraße 4, 72074 Tübingen</p>
-    <small><a href="impressum.html">Impressum</a> <a href="Datenschutz.html">Datenschutz</a></small>
-</div>
-</footer>
->>>>>>> 31c8c2743dc30928a815a255b0bfa9c7e7b40aae:Instrument Akkordeon.html
 </html>
