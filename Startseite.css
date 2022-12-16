@@ -191,26 +191,27 @@ h1{
     margin-top: 1004px;
     width: 250%;
     height: 24%;
-    margin-left: 30%
+    margin-left: 30%;
 }
 
 
 
 #Begrüßung{
     font-size: 250%;
-    margin-left: 5%;
-    width: 150%;
+    margin-left: 50%;
+    width: 230%;
     text-align: inherit;
 }
 
 #Information
 {
     font-size: 250%;
-    margin-top: 10%;
-    width: 80%;
-    margin-left: 200%;
-    
-    text-align: inherit;
+    margin-top: 160%;
+    width: 200%;
+    margin-left: 50%;
+    text-align: center;
+    ;
+   
 }
 
 .blockLook{
@@ -219,6 +220,10 @@ width: 310%;
 }
 
 #text{
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 31c8c2743dc30928a815a255b0bfa9c7e7b40aae
     font-size: 250%;
 }
 }
@@ -280,4 +285,13 @@ width: 310%;
     #text{
         font-size: 500%;
     }
+<<<<<<< HEAD
+=======
+=======
+    font-size: 200%;
+
+}
+
+>>>>>>> Stashed changes
+>>>>>>> 31c8c2743dc30928a815a255b0bfa9c7e7b40aae
 }

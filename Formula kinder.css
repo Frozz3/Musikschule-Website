@@ -205,7 +205,11 @@ footer{
             }
     }
 
+<<<<<<< HEAD
     @media only screen and ( min-width: 819px) and (max-width: 1000px) 
+=======
+     @media only screen and ( min-width: 819px) and (max-width: 1000px) 
+>>>>>>> 31c8c2743dc30928a815a255b0bfa9c7e7b40aae
     {
 
         .menu a {
@@ -220,15 +224,23 @@ footer{
         margin-top: 209px;
         text-align: center;
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 31c8c2743dc30928a815a255b0bfa9c7e7b40aae
         #text {
             padding-bottom: 5px;
             padding-top: 1px;
             font-size: 150%;
         }
 
+<<<<<<< HEAD
         h2{
             text-align: center;
         }
     }
     
+=======
+        
+    }
+>>>>>>> 31c8c2743dc30928a815a255b0bfa9c7e7b40aae
