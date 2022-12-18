@@ -93,3 +93,193 @@ main nav {
 }
 
 /*END Header */
+/*Begrüßung*/
+#Begrüßung {
+    position: absolute;
+    width: 400px;
+}
+
+#KlavierKreis {
+    margin-top: 16px;
+    margin-left: 420px;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+}
+
+#Information {
+    margin-top: 11px;
+    margin-left: 840px;
+    position: absolute;
+    width: 300px;
+}
+
+
+
+
+/*zeiten*/
+h4 {
+    margin: 5px 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+main {
+    margin-top: 50px;
+}
+
+/*START Footer*/
+footer {
+    background: #000;
+    margin-top: 400px;
+    text-align: center;
+}
+
+#text {
+    padding-bottom: 5px;
+    padding-top: 1px;
+}
+
+
+/*END Footer*/
+
+
+
+
+img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+
+}
+
+
+@media only screen and ( min-width: 374px) and (max-width: 800px) 
+{
+    
+    body {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: Arial;
+        background-image: linear-gradient(to right, #ADD8E6, white,);
+    
+    }
+    
+header {
+    min-width: 1168px;
+    height: 230px;
+   
+}
+
+header nav
+{
+    font-size: 300%;
+}
+h1{
+    font-size: 300%;
+}
+
+
+
+#KlavierKreis{
+    margin-top: 1004px;
+    width: 250%;
+    height: 24%;
+    margin-left: 30%;
+}
+
+
+
+#Begrüßung{
+    font-size: 250%;
+    margin-left: 50%;
+    width: 230%;
+    text-align: inherit;
+}
+
+#Information
+{
+    font-size: 250%;
+    margin-top: 160%;
+    width: 200%;
+    margin-left: 50%;
+    text-align: center;
+    ;
+   
+}
+
+.blockLook{
+margin-top: 420%;
+width: 310%;
+}
+
+#text{
+    font-size: 250%;
+}
+}
+
+@media only screen and ( min-width: 819px) and (max-width: 1000px) 
+{
+    header {
+        min-width: 2555px;
+        height: 350px;
+       
+    }
+    
+    header nav
+    {
+        font-size: 500%;
+    }
+    h1{
+        font-size: 500%;
+    }
+    
+    img {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    
+    #KlavierKreis{
+        margin-top: 250%;
+        width: 250%;
+        height: 24%;
+        margin-left: 30%
+    }
+    
+    
+    
+    #Begrüßung{
+        font-size: 500%;
+        margin-left: 40%;
+        width: 150%;
+        text-align: inherit;
+    }
+    
+    #Information
+    {
+        font-size: 500%;
+        margin-top: 30%;
+        width: 80%;
+        margin-left: 200%;
+        
+        text-align: inherit;
+    }
+    
+    .blockLook{
+    margin-top: 420%;
+    width: 310%;
+    }
+    
+    #text{
+        font-size: 500%;
+    }
+
+}
