@@ -1,7 +1,7 @@
 <?php
 
-	$db_link=mysqli_connect ("localhost:3307", "root", "", "adminbeispiel");
-	mysqli_select_db ($db_link, "adminbeispiel");
+	$db_link=mysqli_connect ("localhost:3307", "root", "", "anmeldung");
+	mysqli_select_db ($db_link, "anmeldung");
 	$sql = "SELECT * FROM `seiteninhalt`";
 	$db_erg = mysqli_query ($db_link, $sql);
 

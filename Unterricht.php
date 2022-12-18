@@ -31,15 +31,11 @@
        
   <div id="kinderU">
   <h2>Instrumentaler Unterricht f&uuml;r Kinder</h2> 
-  <p class="unterrichtT">Den Einstieg in die Welt der Musik auf spielerische, 
-  ganzheitliche Weise erm&ouml;glichen: Das ist das Ziel der Angebote im Elementarbereich. 
-  Er umfasst die Fächer &bdquo;Rhythmik in Begleitung&rdquo; ab einem Jahr und &bdquo;Elementare Musikerziehung&rdquo; f&uuml;r Kinder, 
-  die in einem oder in zwei Jahren eingeschult werden.
-  Daran schlie&szlig;t sich der Orientierungsbereich f&uuml;r Grundschulkinder an. 
-  Hier k&ouml;nnen Kinder im Instrumentenkarussell alle Instrumentalgruppen kennenlernen, 
-  einzelne Grundkurse f&uuml;r Blockfl&ouml;te oder Trommeln oder die Holz- und Blechbläservorschule besuchen.
-  Bei der Vergabe freier Plätze im Instrumentalunterricht werden diejenigen Sch&uuml;lerinnen und Sch&uuml;ler vorrangig ber&uuml;cksichtigt, 
-  die einen Grundkurs an der Musikschule besucht haben.
+  <p class="unterrichtT">
+     <?php
+		$bereich = "Angebot_Kinder";
+		include 'ausgabe.php';
+		?>
   <br />
   <br />
   <br />
@@ -52,16 +48,11 @@
   
   <div id="erwachsenU">
   <h2>Instrumentaler Unterricht f&uuml;r Erwachsene</h2>
-  <p class="unterrichtT">Musizieren auch im Erwachsenenalter oder als Senior &ndash; das bringt Lebensqualität und Freude. 
-  An der T&uuml;binger Musikschule lässt sich dieser lang gehegte Traum erf&uuml;llen. 
-  Erwachsene erhalten modernen und individuell auf ihre Bed&uuml;rfnisse zugeschnittenen Instrumentalunterricht.
-  Ein variables Baustein-System erm&ouml;glicht es, kleine musikalische Inseln m&uuml;helos in den Wochenplan zu integrieren. 
-  Der Unterricht kann mit der Lehrerin oder dem Lehrer flexibel organisiert werden, zum Beispiel 14-tägig mit jeweils 40 Minuten Unterricht.
-  Die kleinste w&ouml;chentliche Unterrichtseinheit beträgt 20 Minuten.
-  Auch gemeinsames Musizieren ist f&uuml;r Erwachsene m&ouml;glich. Ob klassisches Orchester, 
-  Big Band oder kleines Kammerensemble: Das Zusammenspiel mit anderen macht besonders viel Freude. 
-  Die Musikschule hilft bei der Suche oder Zusammenstellung des passenden Ensembles.
-
+  <p class="unterrichtT">
+  <?php
+		$bereich = "Angebot_Erwachsene";
+		include 'ausgabe.php';
+		?>
   <br />
   <br />
 
@@ -74,15 +65,11 @@
   
   <div id="gesangU">
   <h2>Gesangsunterricht</h2>
-  <p>Singen ist eine erf&uuml;llende Tätigkeit. Sch&ouml;n singen kann man gr&ouml;&szlig;tenteils lernen &ndash; auch, 
-  wie man mit dem K&ouml;rper und der Atmung umgeht. Sogar eine scheinbar schwache oder heisere Stimme 
-  kann sich durch richtiges Training in eine volumin&ouml;se Stimme verwandeln. Dabei wird nicht nur die Singstimme wachsen, 
-  sondern auch die Sprechstimme freier, klarer und lauter werden.
-   Richtige K&ouml;rperhaltung und gesunde Atmung bilden die Grundvoraussetzungen f&uuml;r die Kunst des Gesanges. 
-   Beides wird zusammen mit einer korrekten Sprech- und Gesangstechnik anhand von &uuml;bungen erlernt. 
-   Die Gesangsliteratur erstreckt sich von der Renaissance bis zur Moderne. Das wichtigste Ziel ist es, 
-   Spa&szlig; am Singen und Freude im Umgang mit der Stimme zu wecken. Empfohlenes Ergänzungsfach ist Geh&ouml;rbildung. 
-   Das Spielen eines Instruments ist eine gute Voraussetzung und erleichtert das Einstudieren der Gesangsliteratur.
+  <p>
+    <?php
+		$bereich = "Angebot_Gesang";
+		include 'ausgabe.php';
+		?>
   <br />
   <br />
   <br />

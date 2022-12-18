@@ -41,15 +41,10 @@
 
         <div id="textinst">
         <p>
-            Das Klavier ist das Soloinstrument schlechthin. Es ist aber auch unersetzlich 
-            bei der Begleitung von Melodieinstrumenten oder von Gesang, in der Kammermusik 
-            und in Jazz-Ensembles. Sehr zu empfehlen ist das Klavierspiel als Voraussetzung
-            für das spätere Erlernen von Orchesterinstrumenten wie Violoncello, Fagott, Harfe, 
-            Posaune und Tuba.
-            Es gibt gebrauchte und überholte Instrumente im Fachhandel ab etwa 2.800 Euro. Bei
-            einer Neuanschaffung sind Markenklaviere ab circa 4.600 Euro zu empfehlen, Mietkauf 
-            und Leasing sind ebenso möglich. Ein Klavier sollte mindestens einmal pro Jahr – vorzugsweise
-            nach der Heizperiode im Frühjahr – gestimmt werden. 
+        <?php
+		$bereich = "Instrumente_Klavier";
+		include 'ausgabe.php';
+		?>
 
         </p>
 

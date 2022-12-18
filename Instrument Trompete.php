@@ -40,18 +40,10 @@
 
         <div id="textinst">
         <p>
-            Die Trompete ist ein sehr altes Instrument. Sie hatte viele Formen und Namen, 
-            bevor sie zu ihrer heutigen Gestalt gelangte. Noch heute gibt es bei Naturvölkern
-            Trompeten in eigenartigen Formen und Spielweisen. So blasen beispielsweise bei
-            bestimmten Stammeszeremonien oft viele Männer in Trompeteninstrumente, die aus
-            geraden Holzhörnern bestehen. Allerdings bläst man nicht nach unserer Art, sondern heult,
-            singt, murmelt oder prustet in die obere Rohröffnung. Die so entstehenden Töne – manchmal 
-            sind es auch nur Geräusche – dienen zumeist kultischen Zwecken.
-            Leihinstrumente kann die Musikschule zur Verfügung stellen. Eine Neuanschaffung 
-            kostet 400 bis 600 Euro für gute Schülerinstrumente. Je nach Ausbildungsstand ist
-            die Trompete in folgenden Ensembles einsetzbar: Nachwuchs-Ensembles, Blasorchester,
-            Combo, Big Band, Blechbläser-Ensemble, Sinfonieorchester und gegebenenfalls auch
-            Kammermusikgruppen wie Quartett, Quintett, gemischte Gruppen.
+        <?php
+		$bereich = "Instrumente_Trompete";
+		include 'ausgabe.php';
+		?>
 
 
         </p>

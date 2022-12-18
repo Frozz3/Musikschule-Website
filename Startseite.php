@@ -22,10 +22,10 @@
         <div id="Begrüßung">
 
         <?php
-		$bereich = "Home_Aktuelles";
+		$bereich = "Startseite";
 		include 'ausgabe.php';
 		?>
-        
+
     </div>
         <img id="KlavierKreis" class="blockLook MainLook" style="box-shadow: none;" src="images/Startseite Bild.jpg" alt="">
         <div id="Information" class="MainLook">

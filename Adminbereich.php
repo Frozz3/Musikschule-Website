@@ -7,7 +7,10 @@
 	echo '<label for="bereich">Bereich:</label>';
 	echo '<br />';
 	echo '<select id="bereich" name="bereich">';
-		echo '<option value="Home_Aktuelles">Startseite - Aktuelles</option>';
+		echo '<option value="Startseite">Startseite</option>';
+		echo '<option value="Angebot_Kinder">Angebot_Kinder</option>';
+		echo '<option value="Angebot_Erwachsene">Angebot_Erwachsene</option>';
+		echo '<option value="Angebot_Gesang">Angebot_Gesang</option>';
 	echo '</select>';
 
 	echo '<br />';

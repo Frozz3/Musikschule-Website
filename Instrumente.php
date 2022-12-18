@@ -46,18 +46,10 @@
         
         <div id="textinst">
         <p>
-            Mit einer über 3000-jährigen Geschichte besitzt die klassische 
-            Gitarre einen großen Schatz an musikalischen Reichtümern.
-            Komponisten wie John Dowland, Johann Sebastian Bach, Fernando Sor, 
-            Francisco Tárrega, Leo Brouwer und Nikita Koshkin sind bedeutende Meister 
-            der klassischen Gitarrenliteratur. Vielfältig ist ihr Einsatz als Soloinstrument,
-            in der Kammermusik, zur Liedbegleitung und im Gitarrenorchester.
-            Unterrichtsinhalte sind allgemeine musikalische Grundlagen (Noten lesen, Rhythmus), 
-            Gitarren-Basics (Melodiespiel, einfaches und erweitertes Akkordspiel, mehrstimmiges Spiel,
-            alle Spieltechniken) und ein breites Spektrum an Musikstilen (Klassik, Folk, Jazz, Rock,
-            Latin, Flamenco). An der Musikschule gibt es Leihinstrumente. Eine Neuanschaffung kostet
-            ab 250 Euro für ein Einstiegsmodell, weiterführende Modelle kosten 500 bis 2000 Euro,
-            eine Meistergitarre von einem Gitarrenbauer ab 3000 Euro.
+        <?php
+		$bereich = "Instrumente_Gitarre";
+		include 'ausgabe.php';
+		?>
         
         
         

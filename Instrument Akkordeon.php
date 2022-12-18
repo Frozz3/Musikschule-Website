@@ -40,16 +40,10 @@
 
         <div id="textinst">
         <p>
-            Zum Unterrichtsangebot gehören sowohl Originalliteratur als auch 
-            Übertragungen aus der Klaviermusik des Barock und der Klassik, aus Jazz, 
-            Tanzmusik, Volksmusik (Folk, Musette, Tango) und der sonstigen Unterhaltungsmusik.
-            Ziel des Unterrichts ist unter anderem das Mitspielen in Duos, Akkordeonorchestern,
-            Ensembles und eventuell in Bands (Folk, Pop, Jazz, Rock unplugged).
-            Leihinstrumente für den Anfang kann die Musikschule in begrenztem Umfang zur Verfügung stellen. 
-            Der Preis bei einer Neuanschaffung hängt wesentlich von der Größe und Ausstattung des Instruments ab.
-            Er liegt zwischen 500 und 1400 Euro. Auch Leasing über ein Musikfachgeschäft ist möglich. 
-            Häufig lässt sich ein preiswertes gebrauchtes Instrument finden.
-            Ein Beratungsgespräch mit dem Fachlehrer wird empfohlen.
+        <?php
+		$bereich = "Instrumente_Akkordeon";
+		include 'ausgabe.php';
+		?>
 
 
 

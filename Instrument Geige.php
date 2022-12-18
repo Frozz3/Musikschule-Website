@@ -44,16 +44,10 @@
 
         <div id="textinst">
         <p>
-            Als die &rdquo;K&ouml;nigin der Instrumente&bdquo; spielt die Geige in den verschiedensten 
-            Besetzungen von kleinen Kammermusikgruppen bis zum großen Sinfonieorchester
-            eine zentrale Rolle. Fast alle &szlig;en Komponisten haben Werke f&uuml;r die Geige
-            komponiert, so dass ihre Repertoire &ndash; was Sch&ouml;nheit und Reichhaltigkeit 
-            betrifft - wohl nur vom Klavier &uuml;bertroffen wird. 1/8- bis 3/4-Instrumente 
-            (f&uuml;r das Alter von f&uuml;nf bis elf Jahren) kann die Musikschule leihweise zur 
-            Verf&uuml;gung stellen. Der Preis f&uuml;r die Neuanschaffung einer 1/8- bis 3/4-Geige 
-            liegt bei 300 bis 400 Euro (mit Kasten und Bogen), eine 4/4-Geige 
-            (ab circa elf bis zw&ouml;lf Jahren) kostet ab 760 Euro. Ein Beratungsgespr&auml;ch 
-            mit dem Fachlehrer wird empfohlen.     
+        <?php
+		$bereich = "Instrumente_Geige";
+		include 'ausgabe.php';
+		?>  
 
 
 

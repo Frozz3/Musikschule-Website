@@ -42,14 +42,10 @@
 
         <div id="textinst">
         <p>
-            Bass muss sein: Kaum ein größeres Ensemble in Klassik und Jazz kann auf dieses Fundament verzichten. 
-            Interessierte Spielerinnen und Spieler können meist sehr schnell in Orchestern oder Jazzformationen einsteigen.
-            Die wirklich herausragende Rolle des Kontrabasses im Orchester ist unbestritten. Man muss aber nicht der Größte 
-            sein, um dieses Instrument zu spielen, denn heute gibt es wie bei den anderen Streichern kleine Instrumente.
-            Die Musikschule stellt Leihinstrumente in begrenzter Anzahl für zu Hause und Instrumente für
-            Unterricht und Orchester zur Verfügung: 1/4- bis 1/2-Instrumente (acht bis zwölf Jahre) und 
-            3/4-Instrumente (zwölf bis 15 Jahre). Die Neuanschaffung eines 3/4- oder ganzen Basses (Massivholz)
-            kostet ab 1800 Euro, Mietkauf (Leasing) ist möglich. Bögen kosten ab 200 Euro. Eine gefütterte Schutzhülle ist zu empfehlen.
+        <?php
+		$bereich = "Instrumente_Kontrabass";
+		include 'ausgabe.php';
+		?>
 
 
 

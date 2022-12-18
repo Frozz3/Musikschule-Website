@@ -5,8 +5,8 @@
 		$date = date ("d.m.Y");
         $sql= "update `seiteninhalt` set `inhalt` = '{$_POST['inhalt']}', `datum` = '{$date}' where `bereich` = '{$_POST['bereich']}';";
 
-        $db_link=mysqli_connect ("localhost:3307", "root", "", "adminbeispiel");
-        mysqli_select_db ($db_link, "adminbeispiel");
+        $db_link=mysqli_connect ("localhost:3307", "root", "", "anmeldung");
+        mysqli_select_db ($db_link, "anmeldung");
         mysqli_query ($db_link, $sql);
 
 		echo "<p>Eintrag wurde gespeichert!</p><br />";
