@@ -14,20 +14,18 @@
             <h1>Private Musikschule T&uuml;bingen</h1>
         </div>
         <nav class="menu">
-            <a href="Startseite.php">Start</a> <a href="login.php">Instrumente</a> <a href="Unterricht.php">Unterricht</a> <a href="Kontakt.php">Kontakt</a>
+            <a href="Startseite.php">Start</a> <a href="login.php">Instrumente</a> <a href="Unterricht.php">Unterricht</a> <a href="Kontakt.php">Kontakt</a><a href="Admin Login.php">Adminbereich</a>
             
         </nav>
     </header>
     <main>
         <div id="Begrüßung">
-           <p>Die Tübinger Musikschule bietet Kindern, Jugendlichen und Erwachsenen Unterricht
-            in allen klassischen Instrumenten an: Holz- und Blechbläser, Streich-, Tasten- und 
-            Zupfinstrumente, Schlaginstrumente und Percussion. Ebenso werden die Vokalfächer
-            Sologesang und Jazz- und Pop-Gesang unterrichtet.
-            Das Kursprogramm richtet sich an die Jüngsten und bietet Rhythmik ab einem Jahr, 
-            elementare Musikerziehung, ein Instrumenten-Karussell, Blockflötenkurse, Blechbläser- 
-            und Holzbläservorschulen, Trommeln für Kids und einen Kinderchor.
-        </p>
+
+        <?php
+		$bereich = "Home_Aktuelles";
+		include 'ausgabe.php';
+		?>
+        
     </div>
         <img id="KlavierKreis" class="blockLook MainLook" style="box-shadow: none;" src="images/Startseite Bild.jpg" alt="">
         <div id="Information" class="MainLook">
