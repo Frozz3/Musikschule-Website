@@ -34,7 +34,12 @@
 		echo '<option value="Startseite">Startseite</option>';
 		echo '<option value="Angebot_Kinder">Angebot_Kinder</option>';
 		echo '<option value="Angebot_Erwachsene">Angebot_Erwachsene</option>';
-		echo '<option value="Angebot_Gesang">Angebot_Gesang</option>';
+		echo '<option value="Instrumente_Gitarre">Instrumente_Gitarre</option>';
+        echo '<option value="Instrumente_Klavier">Instrumente_Klavier</option>';
+        echo '<option value="Instrumente_Geige">Instrumente_Geige</option>';
+        echo '<option value="Instrumente_Akkordeon">Instrumente_Akkordeon</option>';
+        echo '<option value="Instrumente_Trompete">Instrumente_Trompete</option>';
+        echo '<option value="Instrumente_Kontrabass">Instrumente_Kontrabass</option>';
 	echo '</select>';
 
 	echo '<br />';
